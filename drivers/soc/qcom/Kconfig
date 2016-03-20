@@ -1038,3 +1038,7 @@ config TIMA_LOG
          TIMA Log dumping support
 
 endif # ARCH_MSM
+
+config STATE_NOTIFIER
+    bool "State Notifier"
+
